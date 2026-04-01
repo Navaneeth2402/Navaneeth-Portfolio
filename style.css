@@ -447,6 +447,11 @@
             gap: calc(var(--spacing-unit) * 2);
             margin-top: calc(var(--spacing-unit) * 3);
         }
+        .project-card{
+            display:flex;
+            flex-direction:column;
+            height:100%;
+        }
 
         .project-card {
             background: linear-gradient(135deg, rgba(31, 43, 72, 0.6) 0%, rgba(18, 30, 53, 0.6) 100%);
